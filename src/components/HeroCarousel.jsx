@@ -10,13 +10,13 @@ const slides = [
   },
   {
     image:
-      "https://www.indiablooms.com/storage/assets/n/2022/5c27e7380132a197e722f4b0e32336e9.jpg?auto=format&fit=crop&w=1950&q=80",
+      "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202504/suvendu-adhikari-leading-a-ram-navami-procession-in-kolkata-064241348-16x9_0.png?VersionId=QrcuBPxSXVbznHqt7fR_8dCRde5vShrU&size=690:388",
     title: "Elegant. Seamless. Memorable.",
     subtitle: "We design moments that last forever in hearts and minds.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1950&q=80",
+      "https://cdn0.weddingwire.in/article/9179/3_2/1280/jpg/79719-wedding-events-gautam-khullar-lead-image.webp?auto=format&fit=crop&w=1950&q=80",
     title: "Celebrate with Style",
     subtitle: "Make your next event extraordinary with our expert team.",
   },

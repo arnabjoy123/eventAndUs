@@ -1,7 +1,7 @@
 import "./App.css";
-import "./Navbar";
-import Navbar from "./Navbar";
-import HeroCarousel from "./HeroCarousel";
+import "./components/Navbar";
+import Navbar from "./components/Navbar";
+import HeroCarousel from "./components/HeroCarousel";
 
 function App() {
   return (
@@ -60,6 +60,13 @@ function App() {
               professionalism and creativity.”
             </p>
             <h4 className="mt-4 font-semibold">– Jayanti Mukherjee</h4>
+          </div>
+          <div className="max-w-sm bg-white p-6 rounded-xl shadow-md">
+            <p className="italic">
+              “Our corporate event was a huge success thanks to their
+              professionalism and creativity.”
+            </p>
+            <h4 className="mt-4 font-semibold">– Sreela Saha Roy Chowdhury</h4>
           </div>
         </div>
       </section>
