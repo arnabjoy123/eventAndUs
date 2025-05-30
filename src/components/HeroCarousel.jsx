@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const slides = [
   {
@@ -46,9 +47,11 @@ export default function HeroCarousel() {
         <p className="mt-4 text-lg md:text-xl max-w-xl drop-shadow-2xl text-white-100">
           {slides[current].subtitle}
         </p>
-        <button className="mt-8 px-6 py-3 bg-white text-black font-semibold rounded-full shadow-md hover:bg-gray-100 transition">
-          Book a Consultation
-        </button>
+        <Link to="/contact-us">
+          <button className="mt-8 px-6 py-3 bg-white text-black font-semibold rounded-full shadow-md hover:bg-gray-100 transition">
+            Book a Consultation
+          </button>
+        </Link>
       </div>
     </section>
   );

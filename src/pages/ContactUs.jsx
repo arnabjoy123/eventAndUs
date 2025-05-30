@@ -34,7 +34,7 @@ export default function ContactUs() {
         </div>
 
         {/* Optional: Contact Form */}
-        {/* 
+
         <form className="mt-12 max-w-xl mx-auto text-left space-y-4">
           <input
             type="text"
@@ -44,6 +44,11 @@ export default function ContactUs() {
           <input
             type="email"
             placeholder="Your Email"
+            className="w-full px-4 py-3 rounded-md text-black"
+          />
+          <input
+            type="text"
+            placeholder="Your Number"
             className="w-full px-4 py-3 rounded-md text-black"
           />
           <textarea
@@ -58,7 +63,6 @@ export default function ContactUs() {
             Send Message
           </button>
         </form>
-        */}
       </div>
     </div>
   );
