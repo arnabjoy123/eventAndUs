@@ -27,10 +27,11 @@ function App() {
         <h2 className="text-3xl text-white font-bold mb-10">Our Services</h2>
         <div className="flex flex-wrap justify-center gap-8">
           {[
-            { title: "Corporate Events", icon: "🏢" },
             { title: "Weddings", icon: "💍" },
-            { title: "Product Launches", icon: "🚀" },
-            { title: "Private Parties", icon: "🎉" },
+            { title: "Birthday Parties", icon: "🎉" },
+            { title: "Annaprashan", icon: "👶" },
+            { title: "Griha Pravesh", icon: "🏠" },
+            { title: "Upanayan", icon: "🙏" },
           ].map((service, index) => (
             <div
               key={index}
@@ -41,6 +42,9 @@ function App() {
             </div>
           ))}
         </div>
+        <p className="text-xl m-5 text-white font-bold mb-10">
+          And any kind of private parties
+        </p>
       </section>
 
       {/* Testimonials Section */}
