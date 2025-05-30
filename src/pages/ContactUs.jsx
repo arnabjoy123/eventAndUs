@@ -12,13 +12,13 @@ export default function ContactUs() {
           {/* Contact Card: Sanchari */}
           <div className="bg-white text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
             <h2 className="text-2xl font-semibold mb-2">Sanchari Coomar</h2>
-            <p className="text-gray-700 mb-1">📞 9477562293</p>
+            <p className="text-gray-700 mb-1">📞 9836057563</p>
           </div>
 
           {/* Contact Card: Saikat */}
           <div className="bg-white text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
-            <h2 className="text-2xl font-semibold mb-2">Saikat Majumdar</h2>
-            <p className="text-gray-700 mb-1">📞 9477562296</p>
+            <h2 className="text-2xl font-semibold mb-2">Saikat Dutta</h2>
+            <p className="text-gray-700 mb-1">📞 9477562293</p>
           </div>
         </div>
 
@@ -32,6 +32,7 @@ export default function ContactUs() {
             celebrations@eventandus.com
           </a>
         </div>
+        <p> Or you can submit your query here below</p>
 
         {/* Optional: Contact Form */}
 

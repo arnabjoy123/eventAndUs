@@ -17,7 +17,14 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-xl font-bold text-gray-800">Event and Us</div>
+        <div className="flex items-center space-x-2">
+          <img
+            src="/public/EventandusLogo.svg"
+            alt="Eventandus Logo"
+            className="h-8 w-auto border-2 border-black rounded-full object-cover"
+          />
+          <span className="text-xl font-bold text-gray-800">Event and Us</span>
+        </div>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-700">

@@ -8,9 +8,11 @@ import Services from "./pages/Services.jsx";
 import Photos from "./pages/Photos.jsx";
 import Contact from "./pages/ContactUs.jsx";
 import Navbar from "./components/Navbar.jsx";
+import UnderConstruction from "./pages/UnderConstruction.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    {/* <UnderConstruction /> */}
     <Router>
       <div className="font-sans text-gray-800">
         <Navbar />

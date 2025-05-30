@@ -12,8 +12,16 @@ function App() {
       <HeroCarousel />
 
       {/* About Section */}
+
       <section className="py-20 px-6 bg-gray-100 text-center">
-        <h2 className="text-3xl font-bold mb-4">About Us</h2>
+        <div className="flex justify-center mb-4">
+          <img
+            src="/EventandusLogo.svg"
+            alt="Eventandus Logo"
+            className="h-24 w-24 border-4 border-black rounded-full object-cover"
+          />
+        </div>
+        <h2 className="text-3xl font-bold mb-4">Event & Us</h2>
         <p className="max-w-3xl mx-auto text-lg text-gray-700">
           With over a decade of experience, we specialize in creating memorable
           corporate events, luxury weddings, and custom experiences. Our team

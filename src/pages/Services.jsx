@@ -10,13 +10,13 @@ export default function Services() {
       title: "Birthday Parties",
       icon: "🎉",
       description:
-        "Celebrate milestones with fun-filled, personalized birthday parties that create lasting memories.",
+        "Celebrate your special day with fun-filled, personalized and theme-based birthday parties that create lasting memories.",
     },
     {
       title: "Annaprashan",
       icon: "👶",
       description:
-        "A special touch to your baby's first rice ceremony – complete with warmth, care, and tradition.",
+        "A special touch to your baby's rice ceremony – complete with care, warmth, and tradition.",
     },
     {
       title: "Griha Pravesh",
