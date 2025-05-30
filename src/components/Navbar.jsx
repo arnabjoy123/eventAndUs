@@ -1,18 +1,16 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const navItems = [
-    "Home",
-    "About Us",
-    "Portfolio",
-    "Services",
-    "Banquet Hall",
-    "Events",
-    "Videos",
-    "Contact Us",
+    { name: "Home", path: "/" },
+    { name: "About Us", path: "/about-us" },
+    { name: "Services", path: "/services" },
+    { name: "Photos", path: "/photos" },
+    { name: "Contact Us", path: "/contact-us" },
   ];
 
   return (
@@ -24,13 +22,13 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-700">
           {navItems.map((item, i) => (
-            <a
+            <Link
               key={i}
-              href={`#${item.replace(/\s+/g, "").toLowerCase()}`}
+              to={item.path}
               className="hover:text-blue-600 transition"
             >
-              {item}
-            </a>
+              {item.name}
+            </Link>
           ))}
         </nav>
 
@@ -69,13 +67,14 @@ const Navbar = () => {
         <div className="md:hidden bg-white border-t border-gray-200 px-4 pb-4">
           <nav className="flex flex-col space-y-2 text-sm font-medium text-gray-700">
             {navItems.map((item, i) => (
-              <a
+              <Link
                 key={i}
-                href={`#${item.replace(/\s+/g, "").toLowerCase()}`}
+                to={item.path}
                 className="hover:text-blue-600 transition"
+                onClick={() => setIsOpen(false)}
               >
-                {item}
-              </a>
+                {item.name}
+              </Link>
             ))}
           </nav>
         </div>
