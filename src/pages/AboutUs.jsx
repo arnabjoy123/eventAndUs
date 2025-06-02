@@ -78,7 +78,7 @@ export default function AboutUs() {
             {team.map((member, index) => (
               <div
                 key={index}
-                className="bg-white/10 p-20 rounded-2xl text-center shadow-lg hover:bg-white/20 transition"
+                className="bg-white/10 p-14 rounded-2xl text-center shadow-lg hover:bg-white/20 transition"
               >
                 <img
                   src={member.img}
