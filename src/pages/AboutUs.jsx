@@ -6,7 +6,7 @@ export default function AboutUs() {
       img: "/sanchariprodp2.jpg",
     },
     {
-      name: "Saikat Majumdar",
+      name: "Saikat Datta",
       role: "?????",
       img: "https://images.unsplash.com/photo-1614282022237-97cd58f2f2e4?auto=format&fit=crop&w=800&q=80",
     },

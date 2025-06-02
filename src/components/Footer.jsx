@@ -15,7 +15,7 @@ export default function Footer() {
               </a>
             </div>
             <div>
-              📞 Saikat Majumdar:{" "}
+              📞 Saikat Datta:{" "}
               <a href="tel:9477562296" className="underline hover:text-white">
                 9477562296
               </a>

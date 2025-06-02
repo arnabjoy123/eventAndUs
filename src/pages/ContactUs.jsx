@@ -20,7 +20,7 @@ export default function ContactUs() {
           {/* Contact Card: Saikat */}
           <a href="tel:7439760139">
             <div className="bg-white text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
-              <h2 className="text-2xl font-semibold mb-2">Saikat Majumdar</h2>
+              <h2 className="text-2xl font-semibold mb-2">Saikat Datta</h2>
               <p className="text-gray-700 mb-1">📞 7439760139</p>
             </div>
           </a>

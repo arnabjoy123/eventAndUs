@@ -74,7 +74,7 @@ function App() {
               cultural sensitivity, and seamless execution transformed our
               vision into a beautiful reality. ”
             </p>
-            <h4 className="mt-4 font-semibold">– Soubhanik Chowdhury</h4>
+            <h4 className="mt-4 font-semibold">– Joy Barui</h4>
           </div>
 
           <div className="max-w-sm bg-white p-6 rounded-xl shadow-md">
@@ -92,7 +92,7 @@ function App() {
               have asked for a better partner in making this special day
               unforgettable!!”
             </p>
-            <h4 className="mt-4 font-semibold">– Joy Barui</h4>
+            <h4 className="mt-4 font-semibold">– Soubhanik Chowdhury</h4>
           </div>
         </div>
       </section>
