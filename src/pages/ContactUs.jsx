@@ -11,7 +11,7 @@ export default function ContactUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Card: Sanchari */}
           <a href="tel:9836057563">
-            <div className="bg-white text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
+            <div className="bg-gradient-to-r from-white to-purple-400 text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
               <h2 className="text-2xl font-semibold mb-2">Sanchari Coomar</h2>
               <p className="text-gray-700 mb-1">📞 9836057563</p>
             </div>
@@ -19,7 +19,7 @@ export default function ContactUs() {
 
           {/* Contact Card: Saikat */}
           <a href="tel:7439760139">
-            <div className="bg-white text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
+            <div className="bg-gradient-to-r from-white to-purple-400 text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
               <h2 className="text-2xl font-semibold mb-2">Saikat Datta</h2>
               <p className="text-gray-700 mb-1">📞 7439760139</p>
             </div>

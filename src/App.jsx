@@ -23,16 +23,9 @@ function App() {
           />
         </div>
         <h2 className="text-3xl font-bold mb-4">Event & Us</h2>
-        <p className="max-w-3xl mx-auto text-lg text-gray-700">
-          Event & US!! A dream venture by two dreamers. <br />
-          <br />
-          What would we name it !! A connection between our Celebration Seekers
-          & Us. Ergo came Event & Us where Us is "You & Us". Every occasion
-          comes with a dream to make it memorable, and here we are making it
-          marvellous for You. You "PLAN" it with us, we "EXECUTE" and you
-          "CELEBRATE" with your loved ones. Our credentials are our efforts
-          through perfect execusion for you to celebrate with Event & Us.
-        </p>
+        <h4 className="text-2xl font-bold mb-4">
+          উৎসব শুধু একদিনের নয়, এটি হৃদয়ে চিরকালীন!
+        </h4>
       </section>
 
       {/* Services Section */}
@@ -40,36 +33,59 @@ function App() {
         <h2 className="text-3xl text-white font-bold mb-10">Our Services</h2>
         <div className="flex flex-wrap justify-center gap-8">
           {[
-            { title: "Weddings", icon: "💍" },
-            { title: "Birthday Parties", icon: "🎉" },
-            { title: "Annaprashan", icon: "👶" },
-            { title: "Griha Pravesh", icon: "🏠" },
-            { title: "Upanayan", icon: "🙏" },
-            { title: "Baby Shower", icon: "👶" },
+            { title: "Weddings", icon: "/wedding.png", size: "w-32 h-32" },
+            {
+              title: "Birthday Parties",
+              icon: "/birthday.png",
+              size: "w-32 h-32",
+            },
+            {
+              title: "Annaprashan",
+              icon: "/rice2.png",
+              size: "w-28 h-28",
+              pad: "p-4",
+            },
+            {
+              title: "Griha Pravesh",
+              icon: "/grihapravesh.png",
+              size: "w-32 h-32",
+            },
+            { title: "Upanayan", icon: "🙏", size: "w-32 h-32" },
+            {
+              title: "Baby Shower",
+              icon: "/babyshower2.png",
+              size: "w-32 h-32",
+            },
           ].map((service, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-xl p-8 w-72 hover:scale-105 transition transform"
+              className="bg-gradient-to-r from-white to-purple-400 shadow-lg rounded-xl p-8 w-72 hover:scale-105 transition transform"
             >
-              <div className="text-5xl mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold">{service.title}</h3>
+              <img
+                src={service.icon}
+                alt={service.title}
+                className={`${service.size} mb-4 mx-auto object-contain`}
+              />
+              <h3 className={`${service.pad} text-xl font-semibold`}>
+                {service.title}
+              </h3>
             </div>
           ))}
         </div>
-        <p className="text-xl m-5 text-white font-bold mb-10">
+        <p className="text-xl m-5 italic text-white font-bold mb-10">
           And any kind of private parties
         </p>
       </section>
 
       {/* Testimonials Section */}
       <section className="py-20 px-6 bg-gray-100 text-center">
-        <h2 className="text-3xl font-bold mb-10">What Clients Say</h2>
+        <h2 className="text-3xl font-bold mb-10">What our clients say</h2>
         <div className="flex flex-wrap justify-center gap-8">
           <div className="max-w-sm bg-white p-6 rounded-xl shadow-md">
             <img
               src="/ShoubhanikTestimonial2.jpg"
               alt="Testimonial1"
-              className="w-60 h-60 mx-auto object-cover rounded-full border-4 border-violet-300 mb-4"
+              className=" w-60 h-60 mx-auto object-cover rounded-full border-4 border-violet-300 mb-4"
             />
             <p className="italic">
               “The Upanayan ceremony for my brother was a deeply significant

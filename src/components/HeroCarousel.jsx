@@ -5,7 +5,7 @@ const slides = [
   {
     image:
       "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?cs=srgb&dl=pexels-wolfgang-1002140-2747449.jpg&fm=jpg",
-    title: "Plan. Execute. Celebrate",
+    title: "Plan  Execute  Celebrate",
     subtitle:
       "From corporate gatherings to dream weddings – we bring your vision to life.",
   },

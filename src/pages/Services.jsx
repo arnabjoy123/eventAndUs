@@ -2,25 +2,25 @@ export default function Services() {
   const services = [
     {
       title: "Weddings",
-      icon: "💍",
+      icon: "/wedding.png",
       description:
         "From intimate ceremonies to grand celebrations, we craft unforgettable weddings tailored to your dreams.",
     },
     {
       title: "Birthday Parties",
-      icon: "🎉",
+      icon: "birthday.png",
       description:
         "Celebrate your special day with fun-filled, personalized and theme-based birthday parties that create lasting memories.",
     },
     {
       title: "Annaprashan",
-      icon: "👶",
+      icon: "/rice2.png",
       description:
         "A special touch to your baby's rice ceremony – complete with care, warmth, and tradition.",
     },
     {
       title: "Griha Pravesh",
-      icon: "🏠",
+      icon: "/grihapravesh.png",
       description:
         "Make your housewarming sacred and stylish with rituals, decor, and celebrations handled with grace.",
     },
@@ -32,7 +32,7 @@ export default function Services() {
     },
     {
       title: "Baby Shower",
-      icon: "👶",
+      icon: "/babyshower2.png",
       description:
         "Showering the baby with love and motherhood, make this day a special one for you and your baby for the rest of our lives",
     },
@@ -55,7 +55,7 @@ export default function Services() {
               key={index}
               className="bg-white/10 p-8 rounded-2xl shadow-lg hover:bg-white/20 transition text-center flex flex-col items-center"
             >
-              <div className="text-5xl mb-4">{service.icon}</div>
+              <img src={service.icon} className="h-24 mb-4" />
               <h2 className="text-2xl font-bold mb-2 text-violet-200">
                 {service.title}
               </h2>
