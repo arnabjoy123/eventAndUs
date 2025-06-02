@@ -23,9 +23,7 @@ const Navbar = () => {
             alt="Eventandus Logo"
             className="h-8 w-auto border-2 border-black rounded-full object-cover"
           />
-          <span className="text-xl font-bold text-gray-800">
-            Event dsadsadand Us
-          </span>
+          <span className="text-xl font-bold text-gray-800">Event and Us</span>
         </div>
 
         {/* Desktop Menu */}

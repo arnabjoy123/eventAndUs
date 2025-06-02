@@ -2,6 +2,7 @@ import "./App.css";
 import "./components/Navbar";
 import { Link } from "react-router-dom";
 import HeroCarousel from "./components/HeroCarousel";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             { title: "Annaprashan", icon: "👶" },
             { title: "Griha Pravesh", icon: "🏠" },
             { title: "Upanayan", icon: "🙏" },
+            { title: "Baby Shower", icon: "👶" },
           ].map((service, index) => (
             <div
               key={index}
@@ -60,25 +62,37 @@ function App() {
         <h2 className="text-3xl font-bold mb-10">What Clients Say</h2>
         <div className="flex flex-wrap justify-center gap-8">
           <div className="max-w-sm bg-white p-6 rounded-xl shadow-md">
+            <img
+              src="/ShoubhanikTestimonial2.jpg"
+              alt="Testimonial1"
+              className="w-60 h-60 mx-auto object-cover rounded-full border-4 border-violet-300 mb-4"
+            />
             <p className="italic">
-              “Absolutely flawless experience! The team handled every detail
-              with precision.”
+              “The Upanayan ceremony for my brother was a deeply significant
+              milestone in our lives, and Event & Us ensured that every moment
+              was nothing short of extraordinary. Their meticulous planning,
+              cultural sensitivity, and seamless execution transformed our
+              vision into a beautiful reality. ”
             </p>
-            <h4 className="mt-4 font-semibold">– Prabir Sikdar</h4>
+            <h4 className="mt-4 font-semibold">– Soubhanik Chowdhury</h4>
           </div>
+
           <div className="max-w-sm bg-white p-6 rounded-xl shadow-md">
+            <img
+              src="/Joy_Barui2.jpg"
+              alt="Testimonial2"
+              className="w-60 h-60 mx-auto object-cover rounded-full border-4 border-violet-300 mb-4"
+            />
             <p className="italic">
-              “Our corporate event was a huge success thanks to their
-              professionalism and creativity.”
+              “From the very first interaction to the final farewell, Event & Us
+              orchestrated my brother’s wedding with absolute perfection. Every
+              aspect—from venue décor to guest management—was handled with
+              professionalism and creativity. The team was incredibly responsive
+              and made sure every request was met with enthusiasm. We couldn’t
+              have asked for a better partner in making this special day
+              unforgettable!!”
             </p>
-            <h4 className="mt-4 font-semibold">– Jayanti Mukherjee</h4>
-          </div>
-          <div className="max-w-sm bg-white p-6 rounded-xl shadow-md">
-            <p className="italic">
-              “Our corporate event was a huge success thanks to their
-              professionalism and creativity.”
-            </p>
-            <h4 className="mt-4 font-semibold">– Sreela Saha Roy Chowdhury</h4>
+            <h4 className="mt-4 font-semibold">– Joy Barui</h4>
           </div>
         </div>
       </section>
@@ -97,37 +111,6 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 bg-gray-900 text-center text-white text-sm md:text-base">
-        <div className="max-w-5xl mx-auto px-4">
-          <p className="mb-2 font-semibold text-lg">
-            &copy; {new Date().getFullYear()} Event and Us. All rights reserved.
-          </p>
-
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-4 text-gray-300">
-            <div>
-              📞 Sanchari Coomar:{" "}
-              <a href="tel:9477562293" className="underline hover:text-white">
-                9477562293
-              </a>
-            </div>
-            <div>
-              📞 Saikat Majumdar:{" "}
-              <a href="tel:9477562296" className="underline hover:text-white">
-                9477562296
-              </a>
-            </div>
-            <div>
-              📧{" "}
-              <a
-                href="mailto:celebrations@eventandus.com"
-                className="underline hover:text-white"
-              >
-                celebrations@eventandus.com
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

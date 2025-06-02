@@ -9,14 +9,6 @@ export default function Gallery() {
       alt: "Birthday Celebration",
     },
     {
-      src: "https://images.pexels.com/photos/303028/pexels-photo-303028.jpeg",
-      alt: "Annaprashan Setup",
-    },
-    {
-      src: "https://images.pexels.com/photos/1020074/pexels-photo-1020074.jpeg",
-      alt: "Griha Pravesh Ritual",
-    },
-    {
       src: "https://images.pexels.com/photos/302598/pexels-photo-302598.jpeg",
       alt: "Upanayan Decoration",
     },
@@ -31,46 +23,6 @@ export default function Gallery() {
     {
       src: "https://images.pexels.com/photos/3014846/pexels-photo-3014846.jpeg",
       alt: "Birthday Celebration",
-    },
-    {
-      src: "https://images.pexels.com/photos/303028/pexels-photo-303028.jpeg",
-      alt: "Annaprashan Setup",
-    },
-    {
-      src: "https://images.pexels.com/photos/1020074/pexels-photo-1020074.jpeg",
-      alt: "Griha Pravesh Ritual",
-    },
-    {
-      src: "https://images.pexels.com/photos/302598/pexels-photo-302598.jpeg",
-      alt: "Upanayan Decoration",
-    },
-    {
-      src: "https://images.pexels.com/photos/167474/pexels-photo-167474.jpeg",
-      alt: "Cultural Event Stage",
-    },
-    {
-      src: "https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg",
-      alt: "Wedding Ceremony",
-    },
-    {
-      src: "https://images.pexels.com/photos/3014846/pexels-photo-3014846.jpeg",
-      alt: "Birthday Celebration",
-    },
-    {
-      src: "https://images.pexels.com/photos/303028/pexels-photo-303028.jpeg",
-      alt: "Annaprashan Setup",
-    },
-    {
-      src: "https://images.pexels.com/photos/1020074/pexels-photo-1020074.jpeg",
-      alt: "Griha Pravesh Ritual",
-    },
-    {
-      src: "https://images.pexels.com/photos/302598/pexels-photo-302598.jpeg",
-      alt: "Upanayan Decoration",
-    },
-    {
-      src: "https://images.pexels.com/photos/167474/pexels-photo-167474.jpeg",
-      alt: "Cultural Event Stage",
     },
   ];
 

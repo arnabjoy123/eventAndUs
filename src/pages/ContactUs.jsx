@@ -10,16 +10,20 @@ export default function ContactUs() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Card: Sanchari */}
-          <div className="bg-white text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
-            <h2 className="text-2xl font-semibold mb-2">Sanchari Coomar</h2>
-            <p className="text-gray-700 mb-1">📞 9836057563</p>
-          </div>
+          <a href="tel:9836057563">
+            <div className="bg-white text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
+              <h2 className="text-2xl font-semibold mb-2">Sanchari Coomar</h2>
+              <p className="text-gray-700 mb-1">📞 9836057563</p>
+            </div>
+          </a>
 
           {/* Contact Card: Saikat */}
-          <div className="bg-white text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
-            <h2 className="text-2xl font-semibold mb-2">Saikat Dutta</h2>
-            <p className="text-gray-700 mb-1">📞 9477562293</p>
-          </div>
+          <a href="tel:7439760139">
+            <div className="bg-white text-black rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
+              <h2 className="text-2xl font-semibold mb-2">Saikat Majumdar</h2>
+              <p className="text-gray-700 mb-1">📞 7439760139</p>
+            </div>
+          </a>
         </div>
 
         {/* Email */}
@@ -36,24 +40,32 @@ export default function ContactUs() {
 
         {/* Optional: Contact Form */}
 
-        <form className="mt-12 max-w-xl mx-auto text-left space-y-4">
+        <form
+          action="https://formspree.io/f/mldnegdn"
+          method="POST"
+          className="mt-12 max-w-xl mx-auto text-left space-y-4"
+        >
           <input
             type="text"
+            name="name"
             placeholder="Your Name"
             className="w-full px-4 py-3 rounded-md text-black"
           />
           <input
             type="email"
+            name="email"
             placeholder="Your Email"
             className="w-full px-4 py-3 rounded-md text-black"
           />
           <input
             type="text"
+            name="number"
             placeholder="Your Number"
             className="w-full px-4 py-3 rounded-md text-black"
           />
           <textarea
             rows="5"
+            name="message"
             placeholder="Your Message"
             className="w-full px-4 py-3 rounded-md text-black"
           ></textarea>

@@ -30,6 +30,12 @@ export default function Services() {
       description:
         "Preserving tradition and adding elegance to your child's sacred thread ceremony with thoughtful planning.",
     },
+    {
+      title: "Baby Shower",
+      icon: "👶",
+      description:
+        "Showering the baby with love and motherhood, make this day a special one for you and your baby for the rest of our lives",
+    },
   ];
 
   return (

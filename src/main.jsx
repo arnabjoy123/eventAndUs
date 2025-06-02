@@ -9,6 +9,7 @@ import Photos from "./pages/Photos.jsx";
 import Contact from "./pages/ContactUs.jsx";
 import Navbar from "./components/Navbar.jsx";
 import UnderConstruction from "./pages/UnderConstruction.jsx";
+import Footer from "./components/Footer.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -26,6 +27,7 @@ createRoot(document.getElementById("root")).render(
             <Route path="/services" element={<Services />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   </StrictMode>

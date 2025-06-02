@@ -1,19 +1,14 @@
 export default function AboutUs() {
   const team = [
     {
-      name: "Rhea Kapoor",
-      role: "Founder & Creative Director",
-      img: "https://images.unsplash.com/photo-1614282425386-019cda2b10b1?auto=format&fit=crop&w=800&q=80",
+      name: "Sanchari Coomar",
+      role: "????",
+      img: "/sanchariprodp2.jpg",
     },
     {
-      name: "Arjun Mehta",
-      role: "Head of Operations",
+      name: "Saikat Majumdar",
+      role: "?????",
       img: "https://images.unsplash.com/photo-1614282022237-97cd58f2f2e4?auto=format&fit=crop&w=800&q=80",
-    },
-    {
-      name: "Simran Joshi",
-      role: "Lead Event Planner",
-      img: "https://images.unsplash.com/photo-1590080876094-c0c2f87d9366?auto=format&fit=crop&w=800&q=80",
     },
   ];
 
@@ -79,18 +74,18 @@ export default function AboutUs() {
           <h2 className="text-3xl font-bold text-center mb-10 text-purple-200">
             Meet the Team
           </h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
+          <div className="flex justify-center flex-wrap gap-10">
             {team.map((member, index) => (
               <div
                 key={index}
-                className="bg-white/10 p-6 rounded-2xl text-center shadow-lg hover:bg-white/20 transition"
+                className="bg-white/10 p-20 rounded-2xl text-center shadow-lg hover:bg-white/20 transition"
               >
                 <img
                   src={member.img}
                   alt={member.name}
-                  className="w-32 h-32 mx-auto object-cover rounded-full border-4 border-violet-300 mb-4"
+                  className="w-60 h-60 mx-auto object-cover rounded-full border-4 border-violet-300 mb-4"
                 />
-                <h3 className="text-xl font-semibold text-violet-100">
+                <h3 className="text-4xl font-semibold text-violet-100">
                   {member.name}
                 </h3>
                 <p className="text-sm text-purple-300 mt-1">{member.role}</p>
