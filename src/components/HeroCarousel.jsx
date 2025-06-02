@@ -16,8 +16,7 @@ const slides = [
     subtitle: "We design moments that last forever in hearts and minds.",
   },
   {
-    image:
-      "https://cdn0.weddingwire.in/article/9179/3_2/1280/jpg/79719-wedding-events-gautam-khullar-lead-image.webp?auto=format&fit=crop&w=1950&q=80",
+    image: "https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg",
     title: "Celebrate with Style",
     subtitle: "Make your next event extraordinary with our expert team.",
   },

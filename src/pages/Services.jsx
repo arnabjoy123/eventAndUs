@@ -34,7 +34,7 @@ export default function Services() {
       title: "Baby Shower",
       icon: "/babyshower2.png",
       description:
-        "Showering the baby with love and motherhood, make this day a special one for you and your baby for the rest of our lives",
+        "Nurtured with love, cared to precision. Making your wonderful journey even more delightful.",
     },
   ];
 
