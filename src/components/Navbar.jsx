@@ -19,11 +19,13 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
-            src="/public/EventandusLogo.svg"
+            src="/EventandusLogo.svg"
             alt="Eventandus Logo"
             className="h-8 w-auto border-2 border-black rounded-full object-cover"
           />
-          <span className="text-xl font-bold text-gray-800">Event and Us</span>
+          <span className="text-xl font-bold text-gray-800">
+            Event dsadsadand Us
+          </span>
         </div>
 
         {/* Desktop Menu */}
