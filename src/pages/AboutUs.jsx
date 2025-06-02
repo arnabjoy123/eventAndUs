@@ -28,7 +28,7 @@ export default function AboutUs() {
         {/* Two Column Layout */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src="https://images.unsplash.com/photo-1581093588401-3c7a21f40c88?auto=format&fit=crop&w=800&q=80"
+            src="https://cdn0.weddingwire.in/vendor/3498/3_2/960/jpg/file-1684229801494_15_373498-168422980345962.jpeg"
             alt="Our team in action"
             className="rounded-3xl shadow-lg"
           />
