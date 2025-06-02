@@ -11,7 +11,7 @@ const slides = [
   },
   {
     image:
-      "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202504/suvendu-adhikari-leading-a-ram-navami-procession-in-kolkata-064241348-16x9_0.png?VersionId=QrcuBPxSXVbznHqt7fR_8dCRde5vShrU&size=690:388",
+      "https://clubtranscend.in/wp-content/uploads/2025/01/Corporate-Event.jpg",
     title: "Elegant. Seamless. Memorable.",
     subtitle: "We design moments that last forever in hearts and minds.",
   },
