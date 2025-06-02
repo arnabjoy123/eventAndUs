@@ -24,10 +24,14 @@ function App() {
         </div>
         <h2 className="text-3xl font-bold mb-4">Event & Us</h2>
         <p className="max-w-3xl mx-auto text-lg text-gray-700">
-          With over a decade of experience, we specialize in creating memorable
-          corporate events, luxury weddings, and custom experiences. Our team
-          takes pride in delivering seamless events with attention to every
-          detail.
+          Event & US!! A dream venture by two dreamers. <br />
+          <br />
+          What would we name it !! A connection between our Celebration Seekers
+          & Us. Ergo came Event & Us where Us is "You & Us". Every occasion
+          comes with a dream to make it memorable, and here we are making it
+          marvellous for You. You "PLAN" it with us, we "EXECUTE" and you
+          "CELEBRATE" with your loved ones. Our credentials are our efforts
+          through perfect execusion for you to celebrate with Event & Us.
         </p>
       </section>
 

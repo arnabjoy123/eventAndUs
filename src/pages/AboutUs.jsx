@@ -2,13 +2,13 @@ export default function AboutUs() {
   const team = [
     {
       name: "Sanchari Coomar",
-      role: "????",
-      img: "/sanchariprodp2.jpg",
+      role: "Co-Founder",
+      img: "/sanchariprodp.jpg",
     },
     {
       name: "Saikat Datta",
-      role: "?????",
-      img: "https://images.unsplash.com/photo-1614282022237-97cd58f2f2e4?auto=format&fit=crop&w=800&q=80",
+      role: "Co-Founder",
+      img: "/SaikatDaOG.jpg",
     },
   ];
 
@@ -78,17 +78,26 @@ export default function AboutUs() {
             {team.map((member, index) => (
               <div
                 key={index}
-                className="bg-white/10 p-14 rounded-2xl text-center shadow-lg hover:bg-white/20 transition"
+                className="flex items-center bg-white/10 p-10 rounded-2xl text-center shadow-lg hover:bg-white/20 transition  gap-8 w-full lg:w-[45%]"
               >
-                <img
-                  src={member.img}
-                  alt={member.name}
-                  className="w-60 h-60 mx-auto object-cover rounded-full border-4 border-violet-300 mb-4"
-                />
-                <h3 className="text-4xl font-semibold text-violet-100">
-                  {member.name}
-                </h3>
-                <p className="text-sm text-purple-300 mt-1">{member.role}</p>
+                <div className="imgteam flex-shrink-0">
+                  <img
+                    src={member.img}
+                    alt={member.name}
+                    className="h-96 mx-auto object-cover rounded-xl border-4 border-violet-300 "
+                  />
+                </div>
+                <div className="teamContent flex flex-col text-left space-y-3">
+                  <h3 className="text-4xl font-semibold text-violet-100">
+                    {member.name}
+                  </h3>
+                  <p className="text-2xl text-purple-300 mt-1">{member.role}</p>
+                  <p className="text-base text-purple-300 ">
+                    The man with a plan. The do it all, the go getter, he's none
+                    ther than Saikat Datta. Popular, father to a sweet kid. You
+                    name it, he can do it.
+                  </p>
+                </div>
               </div>
             ))}
           </div>
