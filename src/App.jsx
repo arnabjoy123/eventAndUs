@@ -50,10 +50,14 @@ function App() {
               icon: "/grihapravesh.png",
               size: "w-32 h-32",
             },
-            { title: "Upanayan", icon: "🙏", size: "w-32 h-32" },
+            {
+              title: "Upanayan",
+              icon: "/UpaFin2.png",
+              size: "w-32 h-32",
+            },
             {
               title: "Baby Shower",
-              icon: "/babyshower2.png",
+              icon: "/Cradle.png",
               size: "w-32 h-32",
             },
           ].map((service, index) => (

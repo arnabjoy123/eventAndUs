@@ -26,13 +26,13 @@ export default function Services() {
     },
     {
       title: "Upanayan",
-      icon: "🙏",
+      icon: "/UpaFin2.png",
       description:
         "Preserving tradition and adding elegance to your child's sacred thread ceremony with thoughtful planning.",
     },
     {
       title: "Baby Shower",
-      icon: "/babyshower2.png",
+      icon: "/Cradle.png",
       description:
         "Nurtured with love, cared to precision. Making your wonderful journey even more delightful.",
     },
