@@ -1,27 +1,35 @@
 export default function Gallery() {
   const images = [
     {
-      src: "https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg",
+      src: "gallery/1.jpg",
       alt: "Wedding Ceremony",
     },
     {
-      src: "https://images.pexels.com/photos/3014846/pexels-photo-3014846.jpeg",
+      src: "gallery/2.jpg",
       alt: "Birthday Celebration",
     },
     {
-      src: "https://images.pexels.com/photos/302598/pexels-photo-302598.jpeg",
+      src: "gallery/3.jpg",
       alt: "Upanayan Decoration",
     },
     {
-      src: "https://images.pexels.com/photos/167474/pexels-photo-167474.jpeg",
+      src: "gallery/4.jpg",
       alt: "Cultural Event Stage",
     },
     {
-      src: "https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg",
+      src: "gallery/5.jpg",
       alt: "Wedding Ceremony",
     },
     {
-      src: "https://images.pexels.com/photos/3014846/pexels-photo-3014846.jpeg",
+      src: "gallery/6.jpg",
+      alt: "Birthday Celebration",
+    },
+    {
+      src: "gallery/7.jpg",
+      alt: "Birthday Celebration",
+    },
+    {
+      src: "gallery/8.jpg",
       alt: "Birthday Celebration",
     },
   ];
@@ -37,7 +45,7 @@ export default function Gallery() {
           emotions – here’s how we bring visions to life.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="flex flex-wrap gap-6 justify-center">
           {images.map((img, index) => (
             <div
               key={index}

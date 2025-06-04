@@ -3,12 +3,12 @@ export default function AboutUs() {
     {
       name: "Sanchari Coomar",
       role: "Co-Founder",
-      img: "/sanchari2.jpg",
+      img: "team/sanchari2.jpg",
     },
     {
       name: "Saikat Datta",
       role: "Co-Founder",
-      img: "/SaikatDaOG.jpg",
+      img: "team/SaikatDaOG.jpg",
     },
   ];
 
@@ -44,7 +44,7 @@ export default function AboutUs() {
             {team.map((member, index) => (
               <div
                 key={index}
-                className="flex items-center bg-white/10 p-10 rounded-2xl text-center shadow-lg hover:bg-white/20 transition  gap-8 w-full lg:w-[45%]"
+                className="flex flex-col lg:flex-row items-center bg-white/10 p-10 rounded-2xl text-center shadow-lg hover:bg-white/20 transition  gap-8 w-full lg:w-[45%]"
               >
                 <div className="imgteam flex-shrink-0">
                   <img

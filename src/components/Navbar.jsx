@@ -19,7 +19,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
-            src="/EventandusLogo.svg"
+            src="logo/EventandusLogo.svg"
             alt="Eventandus Logo"
             className="h-8 w-auto border-2 border-black rounded-full object-cover"
           />

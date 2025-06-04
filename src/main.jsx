@@ -10,11 +10,12 @@ import Contact from "./pages/ContactUs.jsx";
 import Navbar from "./components/Navbar.jsx";
 import UnderConstruction from "./pages/UnderConstruction.jsx";
 import Footer from "./components/Footer.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <UnderConstruction /> */}
     <Router>
+      <ScrollToTop />
       <div className="font-sans text-gray-800">
         <Navbar />
         <main style={{ paddingTop: "60px" }}>

@@ -2,7 +2,6 @@ import "./App.css";
 import "./components/Navbar";
 import { Link } from "react-router-dom";
 import HeroCarousel from "./components/HeroCarousel";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
       <section className="py-20 px-6 bg-gray-100 text-center">
         <div className="flex justify-center mb-4">
           <img
-            src="/EventandusLogo.svg"
+            src="logo/EventandusLogo.svg"
             alt="Eventandus Logo"
             className="h-24 w-24 border-4 border-black rounded-full object-cover"
           />
@@ -33,31 +32,35 @@ function App() {
         <h2 className="text-3xl text-white font-bold mb-10">Our Services</h2>
         <div className="flex flex-wrap justify-center gap-8">
           {[
-            { title: "Weddings", icon: "/wedding.png", size: "w-32 h-32" },
+            {
+              title: "Weddings",
+              icon: "services/wedding.png",
+              size: "w-32 h-32",
+            },
             {
               title: "Birthday Parties",
-              icon: "/birthday.png",
+              icon: "/services/birthday.png",
               size: "w-32 h-32",
             },
             {
               title: "Annaprashan",
-              icon: "/rice2.png",
+              icon: "/services//rice2.png",
               size: "w-28 h-28",
               pad: "p-4",
             },
             {
               title: "Griha Pravesh",
-              icon: "/grihapravesh.png",
+              icon: "/services//grihapravesh.png",
               size: "w-32 h-32",
             },
             {
               title: "Upanayan",
-              icon: "/UpaFin2.png",
+              icon: "/services//UpaFin2.png",
               size: "w-32 h-32",
             },
             {
               title: "Baby Shower",
-              icon: "/Cradle.png",
+              icon: "/services/Cradle.png",
               size: "w-32 h-32",
             },
           ].map((service, index) => (
@@ -87,7 +90,7 @@ function App() {
         <div className="flex flex-wrap justify-center gap-8">
           <div className="max-w-sm bg-white p-6 rounded-xl shadow-md">
             <img
-              src="/ShoubhanikTestimonial2.jpg"
+              src="Testimonial/ShoubhanikTestimonial2.jpg"
               alt="Testimonial1"
               className=" w-60 h-60 mx-auto object-cover rounded-full border-4 border-violet-300 mb-4"
             />
@@ -103,7 +106,7 @@ function App() {
 
           <div className="max-w-sm bg-white p-6 rounded-xl shadow-md">
             <img
-              src="/Joy_Barui2.jpg"
+              src="Testimonial/Joy_Barui2.jpg"
               alt="Testimonial2"
               className="w-60 h-60 mx-auto object-cover rounded-full border-4 border-violet-300 mb-4"
             />

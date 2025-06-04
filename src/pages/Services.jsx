@@ -2,37 +2,37 @@ export default function Services() {
   const services = [
     {
       title: "Weddings",
-      icon: "/wedding.png",
+      icon: "services/wedding.png",
       description:
         "From intimate ceremonies to grand celebrations, we craft unforgettable weddings tailored to your dreams.",
     },
     {
       title: "Birthday Parties",
-      icon: "birthday.png",
+      icon: "services/birthday.png",
       description:
         "Celebrate your special day with fun-filled, personalized and theme-based birthday parties that create lasting memories.",
     },
     {
       title: "Annaprashan",
-      icon: "/rice2.png",
+      icon: "services/rice2.png",
       description:
         "A special touch to your baby's rice ceremony – complete with care, warmth, and tradition.",
     },
     {
       title: "Griha Pravesh",
-      icon: "/grihapravesh.png",
+      icon: "services/grihapravesh.png",
       description:
         "Make your housewarming sacred and stylish with rituals, decor, and celebrations handled with grace.",
     },
     {
       title: "Upanayan",
-      icon: "/UpaFin2.png",
+      icon: "services/UpaFin2.png",
       description:
         "Preserving tradition and adding elegance to your child's sacred thread ceremony with thoughtful planning.",
     },
     {
       title: "Baby Shower",
-      icon: "/Cradle.png",
+      icon: "services/Cradle.png",
       description:
         "Nurtured with love, cared to precision. Making your wonderful journey even more delightful.",
     },
