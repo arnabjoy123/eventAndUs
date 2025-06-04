@@ -20,7 +20,9 @@ export default function AboutUs() {
           About Us
         </h1>
         <p className="text-center text-lg md:text-xl max-w-3xl mx-auto mb-16 text-violet-100">
-          প্রতিটি মুহূর্তই একখণ্ড গল্প—আমরা তাকে স্মৃতিতে বাঁধি!
+          <span className="text-2xl">
+            প্রতিটি মুহূর্তই একখণ্ড গল্প—আমরা তাকে স্মৃতিতে বাঁধি!
+          </span>
           <br />
           <br />{" "}
           <span className="text-3xl font-semibold text-white">
